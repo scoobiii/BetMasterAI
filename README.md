@@ -50,34 +50,34 @@ AI Betting Models (PyBet) – Open-source para aprendizado de apostas.
 
 📌 Estrutura de Diretórios
 
-BetMasterAI/
-├── backend/  
-│   ├── app/  
-│   │   ├── main.py  ← (FastAPI API)  
-│   │   ├── models.py  ← (Modelos de Dados)  
-│   │   ├── views.py  ← (Endpoints de API)  
-│   │   ├── controllers.py  ← (Lógica de Negócio)  
-│   ├── event_bus/  
-│   │   ├── kafka_consumer.py  ← (Consumer Kafka)  
-│   │   ├── kafka_producer.py  ← (Producer Kafka)  
-│   ├── bot/  
-│   │   ├── ai_bet_bot.py  ← (Core do Bot Apostador)  
-│   │   ├── strategy.py  ← (Módulo de Estratégias de Aposta)  
-│   ├── tests/  
-│   │   ├── test_models.py  
-│   │   ├── test_views.py  
-│   ├── requirements.txt  
-│   ├── docker-compose.yml  
-├── frontend/  
-│   ├── public/  
-│   │   ├── index.html  ← (Página Inicial)  
-│   │   ├── styles.css  ← (Estilo UI)  
-│   ├── src/  
-│   │   ├── components/  
-│   │   ├── App.js  
-│   │   ├── index.js  
-│   ├── package.json  
-├── README.md
+    BetMasterAI/
+    ├── backend/  
+    │   ├── app/  
+    │   │   ├── main.py  ← (FastAPI API)  
+    │   │   ├── models.py  ← (Modelos de Dados)  
+    │   │   ├── views.py  ← (Endpoints de API)  
+    │   │   ├── controllers.py  ← (Lógica de Negócio)  
+    │   ├── event_bus/  
+    │   │   ├── kafka_consumer.py  ← (Consumer Kafka)  
+    │   │   ├── kafka_producer.py  ← (Producer Kafka)  
+    │   ├── bot/  
+    │   │   ├── ai_bet_bot.py  ← (Core do Bot Apostador)  
+    │   │   ├── strategy.py  ← (Módulo de Estratégias de Aposta)  
+    │   ├── tests/  
+    │   │   ├── test_models.py  
+    │   │   ├── test_views.py  
+    │   ├── requirements.txt  
+    │   ├── docker-compose.yml  
+    ├── frontend/  
+    │   ├── public/  
+    │   │   ├── index.html  ← (Página Inicial)  
+    │   │   ├── styles.css  ← (Estilo UI)  
+    │   ├── src/  
+    │   │   ├── components/  
+    │   │   ├── App.js  
+    │   │   ├── index.js  
+    │   ├── package.json  
+    ├── README.md
 
 ✅ Separação Total de Frontend e Backend
 ✅ Módulo Dedicado para o Bot AGI
